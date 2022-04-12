@@ -327,7 +327,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url(../img/hero-bg.jpg) top center;
+  background: url(../img/pct_hero.png) top center;
   background-size: cover;
   position: relative;
 }
@@ -480,8 +480,8 @@ section {
   padding: 80px 0;
 }
 #about .about-container .background {
-  min-height: 300px;
-  background: url(../img/about-img.jpg) center top no-repeat;
+  min-height: 500px;
+  background: url(../img/szeto_pct.png) center top no-repeat;
   margin-bottom: 10px;
 }
 #about .about-container .content {
@@ -976,6 +976,15 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Track
+--------------------------------------------------------------*/
+#track {
+  background-color: #f7f7f7;
+  padding: 50px 0 50px 0;
+}
+
+
+/*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
 #footer {
@@ -992,4 +1001,8 @@ section {
   text-align: center;
   font-size: 13px;
   color: #ccc;
+}
+
+.eapps-instagram-feed-title-container{
+  display: none;
 }
